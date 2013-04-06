@@ -4,13 +4,9 @@ define('__BG_SPIN_CORE__', __BG_SPIN__ . '/_core');
 /*if(!defined('__MLC_AUTH__')){
 	MLCApplication::InitPackage('MLCAuth');
 }*/
-define('DB_2', serialize(array(
-	'host'=>'localhost',
-	'db_name'=>'bargames_spin',
-	'user'=>'root',
-	'pass'=>'learnlearn'
-)));
-MLCDBDriver::ParseDBConnection('DB_2');
+
+
+MLCDBDriver::ParseDBConnection('DB_BGSpin');
 define('__BG_SPIN_CORE_CTL__', __BG_SPIN_CORE__ . '/ctl');
 define('__BG_SPIN_CORE_DATA_LAYER__', __BG_SPIN_CORE__ . '/data_layer');
 define('__BG_SPIN_CORE_VIEW__', __BG_SPIN_CORE__ . '/view');
