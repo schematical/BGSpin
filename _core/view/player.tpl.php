@@ -2,7 +2,7 @@
 <script src="http://<?php echo $_SERVER['SERVER_NAME']; ?>:5033/socket.io/socket.io.js"></script>
 <script src="<?php echo MLCApplication::GetAssetUrl('/js/MLC.Socket.js', 'MLCSocket'); ?>"></script>
 <script src="<?php echo MLCApplication::GetAssetUrl('/js/App.js'); ?>/BG/App.js"></script>
-<script src="<?php echo MLCApplication::GetAssetUrl('/js/MLC.Socket.js', 'BGSpin'); ?>"></script>
+<script src="<?php echo MLCApplication::GetAssetUrl('/js/BG.Spin.js', 'BGSpin'); ?>"></script>
 <script>
 $(function(){
 	BG.Spin.Player.Init(
