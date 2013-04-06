@@ -1,6 +1,6 @@
 <?php
 class SpinOptionBase extends BaseEntity {
-	const DB_CONN = 'DB_2';
+	const DB_CONN = 'DB_BGSpin';
     const TABLE_NAME = 'SpinOption';
     const P_KEY = 'idSpinOption';
     
